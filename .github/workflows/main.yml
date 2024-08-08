@@ -33,7 +33,7 @@ jobs:
     - name: Build project
       run: |
         mkdir -p build
-        echo" this is a build output">build/output.txt
+        echo "this is a build output" >build/output.txt
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
